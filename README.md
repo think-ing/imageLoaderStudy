@@ -2,12 +2,13 @@
 一个简单的图片加载类
 
 
-<p>
+
 ## 缓存<br />
 1、支持内存缓存（最大内存的1/4做图片缓存）；<br />
 2、支持SD卡缓存；<br />
 3、支持内存、SD卡双缓存；<br />
 <br />
+
 ## 使用<br />
 //获得实例<br />
 mImageloader = new Imageloader();<br />
@@ -19,4 +20,4 @@ mImageloader.setFailedImg(R.mipmap.failed_img);<br />
 mImageloader.setImageCache(new DoubleCache());<br />
 //加载图片<br />
 mImageloader.displayImage(imageUrl,imageView,progressBar);<br />
-</p>
+
